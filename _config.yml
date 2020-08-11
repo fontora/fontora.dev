@@ -2,3 +2,5 @@ theme: jekyll-theme-midnight
 title: "fontora.dev"
 description: "Play area for now"
 google_analytics: UA-175213666-1
+github:
+  is_project_page: false
