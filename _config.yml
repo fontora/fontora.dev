@@ -3,3 +3,6 @@ title: "fontora.dev"
 description: "Play area for now"
 google_analytics: UA-175213666-1
 show_downloads: false
+
+plugins:
+  - jekyll-sitemap
