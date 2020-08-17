@@ -6,3 +6,4 @@ show_downloads: false
 url: "https://fontora.dev"
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
