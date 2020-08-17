@@ -22,7 +22,7 @@ Testing page.title: {{ page.title }}
 
 make 'hi' capitals: {{ "hi" | capitalize }}
 
-make 'bye' lowercase: {{ "BYE" | downcase }}
+make 'BYE' lowercase: {{ "BYE" | downcase }}
 
 page number: {{ page.my_number }}
 
