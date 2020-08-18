@@ -39,7 +39,7 @@ span {
   height: max-content;
   &:before{
     content:'';
-    background-image: url("/assets/img/rm_404.png");
+    background-image: url('/assets/img/rm_404.png');
     position: absolute;
     height: 100%;
     width: 100%;
