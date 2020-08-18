@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Lets see how this goes!?"
 my_number: 5
 
