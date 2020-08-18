@@ -23,8 +23,10 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
         </div>
-        {% include nav.html %}
-        {{ content }}
+        <div>
+          {% include nav.html %}
+        </div>
+        {{ content }}      
       </section>
     </div>
     {% if site.google_analytics %}
