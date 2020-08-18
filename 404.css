@@ -14,7 +14,7 @@ html {
   overflow: hidden;
 }
 
-.wrapper{
+.wrapper {
   position: absolute;
   margin: auto;
   top: 50%;
@@ -26,10 +26,7 @@ html {
   z-index: 4;
 }
 
-span {
-  &:first-letter{
-    letter-spacing: 12vmax; 
-  }
+.wrapper span {
   position: relative;
   color: #fff;
   font-weight: 900;
@@ -38,29 +35,34 @@ span {
   overflow: hidden;
   width: fit-content;
   height: max-content;
-  &:before{
-    content:'';
-    background-image: url("404.png");
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;    
-    animation: rotateIn 2s ease-out;
-  }
 }
 
-p {
+.wrapper span:first-letter {
+  letter-spacing: 12vmax;
+}
+
+.wrapper span:before {
+  content: '';
+  background-image: url("404.png");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  animation: rotateIn 2s ease-out;
+}
+
+.wrapper p {
   text-align: center;
   font-style: italic;
   font-weight: 400;
   color: #fff;
   margin-top: 0;
   line-height: 22px;
- }
+}
 
-button {
+.wrapper button {
   background-color: #f96e4d;
   border: 0;
   padding: 11px 22px;
@@ -71,22 +73,22 @@ button {
   font-weight: 900;
 }
 
-@keyframes spin { 
+@keyframes spin {
   from {
-    transform: rotate( 0deg );
-  }  
+    transform: rotate(0deg);
+  }
   to {
-    transform: rotate( -360deg );
+    transform: rotate(-360deg);
   }
 }
 
 @keyframes rotateIn {
   from {
-    transform: rotate( 0deg ) scale(0.2);
+    transform: rotate(0deg) scale(0.2);
     opacity: 0;
   }
   to {
-    transform: rotate( 360deg ) scale(1);
+    transform: rotate(360deg) scale(1);
     opacity: 1;
   }
 }
