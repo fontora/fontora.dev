@@ -16,20 +16,23 @@ Tesitng using embedded code:
 <style>
 .gist-it-gist .gist-file .gist-meta,
 .gister-gist .gist-file .gist-meta {
-    overflow: hidden;
-    padding: 0.5em;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 0.5em;
 }
 
 .gist-it-gist .gist-file .gist-data,
 .gister-gist .gist-file .gist-data {
-    overflow: auto;
-    word-wrap: normal;
+  font-size: 12px;
+  overflow: auto;
+  word-wrap: normal;
 }
 
 .gist-it-gist .gist-file .gist-data pre,
 .gister-gist .gist-file .gist-data pre {
-    margin: 0 !important;
-    padding: 0.5em;
+  font-size: 12px;
+  margin: 0 !important;
+  padding: 0.5em;
 }
 </style>
 
