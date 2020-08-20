@@ -10,4 +10,3 @@ tags: splunk datamodels
 Tesitng using embedded code:
 
 <script src="https://gist-it.appspot.com/http://github.com/fontora/splunk/blob/master/Searches/Datamodels/ES_CIM_Datamodels.spl"></script>
-<script type="text/javascript" src="/assets/js/gistit_fix.js"></script>

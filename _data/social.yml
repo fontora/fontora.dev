@@ -1,0 +1,23 @@
+email:
+  id: 'me@fontora.dev'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+github:
+  id: 'fontora'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
+
+linkedin:
+  id: 'msearles'
+  href: 'https://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
+
+rss:
+  id: '/feed.xml'
+  href:
+  title: 'RSS'
+  fa-icon: 'fa-rss-square'
