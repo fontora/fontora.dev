@@ -10,7 +10,7 @@ tags: splunk datamodels
 Tesitng using embedded code:
 <script type="text/javascript">
 (function () {
-  var links = document.querySelectorAll("link[href='http://gist-it.appspot.com/assets/embed.css'], link[href='http://gist-it.appspot.com/assets/prettify/prettify.css']");
+  var links = document.querySelectorAll("link[href='shttp://gist-it.appspot.com/assets/embed.css'], link[href='https://gist-it.appspot.com/assets/prettify/prettify.css']");
   links.forEach(function (link, index) {
     console.log(index, link);
     link.parentNode.removeChild(link);
