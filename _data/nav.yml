@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About
+  link: /about/
+- name: Posts
+  link: /posts/
+- name: Categories
+  link: /categories/
+- name: Tags
+  link: /tags/
