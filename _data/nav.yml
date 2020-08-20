@@ -8,3 +8,5 @@
   link: /categories/
 - name: Tags
   link: /tags/
+ - name: Something else
+  link: /fake/ 
