@@ -9,8 +9,9 @@ tags: splunk datamodels
 
 Tesitng using embedded code:
 
+<p style="font-size: 12px;">
 <script src="https://gist-it.appspot.com/http://github.com/fontora/splunk/blob/master/Searches/Datamodels/ES_CIM_Datamodels.spl"></script>
-
+</p>
 
 <script type="text/javascript">
   var links = document.querySelectorAll("link[href='https://gist-it.appspot.com/assets/embed.css'], link[href='https://gist-it.appspot.com/assets/prettify/prettify.css']");
