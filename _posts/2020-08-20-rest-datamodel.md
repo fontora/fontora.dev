@@ -9,37 +9,5 @@ tags: splunk datamodels
 
 Tesitng using embedded code:
 
-
-
 <script src="https://gist-it.appspot.com/http://github.com/fontora/splunk/blob/master/Searches/Datamodels/ES_CIM_Datamodels.spl"></script>
-
-<style>
-.gist-it-gist .gist-file .gist-meta,
-.gister-gist .gist-file .gist-meta {
-  font-size: 12px;
-  overflow: hidden;
-  padding: 0.5em;
-}
-
-.gist-it-gist .gist-file .gist-data,
-.gister-gist .gist-file .gist-data {
-  font-size: 12px;
-  overflow: auto;
-  word-wrap: normal;
-}
-
-.gist-it-gist .gist-file .gist-data pre,
-.gister-gist .gist-file .gist-data pre {
-  font-size: 12px;
-  margin: 0 !important;
-  padding: 0.5em;
-}
-</style>
-
-<script type="text/javascript">
-  var links = document.querySelectorAll("link[href='https://gist-it.appspot.com/assets/embed.css'], link[href='https://gist-it.appspot.com/assets/prettify/prettify.css']");
-  links.forEach(function (link, index) {
-    console.log(index, link);
-    link.parentNode.removeChild(link);
-  });
-</script>
+<script type="text/javascript" src="/assets/js/gistit_fix.js"></script>
