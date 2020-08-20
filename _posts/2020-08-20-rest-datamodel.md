@@ -9,9 +9,29 @@ tags: splunk datamodels
 
 Tesitng using embedded code:
 
-<p style="font-size: 12px;">
+
+
 <script src="https://gist-it.appspot.com/http://github.com/fontora/splunk/blob/master/Searches/Datamodels/ES_CIM_Datamodels.spl"></script>
-</p>
+
+<style>
+.gist-it-gist .gist-file .gist-meta,
+.gister-gist .gist-file .gist-meta {
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.gist-it-gist .gist-file .gist-data,
+.gister-gist .gist-file .gist-data {
+    overflow: auto;
+    word-wrap: normal;
+}
+
+.gist-it-gist .gist-file .gist-data pre,
+.gister-gist .gist-file .gist-data pre {
+    margin: 0 !important;
+    padding: 0.5em;
+}
+</style>
 
 <script type="text/javascript">
   var links = document.querySelectorAll("link[href='https://gist-it.appspot.com/assets/embed.css'], link[href='https://gist-it.appspot.com/assets/prettify/prettify.css']");
