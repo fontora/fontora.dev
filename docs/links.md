@@ -6,18 +6,14 @@ title: "List of useful links"
 ## Splunk: Enterprise
 
 {% for item in site.data.links_splunk_enterprise %}
-[{{ item.name }}]({{ item.link }})
+* [{{ item.name }}]({{ item.link }})
 {% endfor %}
 
 ## Splunk: Premium
 
-itsi.splunk.wiki
-es.splunk.wiki
-phantom.splunk.wiki
-dsp.splunk.wiki
-uba.splunk.wiki
-victorops.splunk.wiki
-signalfx.splunk.wiki
+{% for item in site.data.links_splunk_premium %}
+* [{{ item.name }}]({{ item.link }})
+{% endfor %}
 
 ## Splunk: Apps
 
@@ -35,5 +31,5 @@ silly.splunk.wiki
 ## Misc
 
 {% for item in site.data.links_misc %}
-[{{ item.name }}]({{ item.link }})
+* [{{ item.name }}]({{ item.link }})
 {% endfor %}

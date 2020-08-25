@@ -1,6 +1,6 @@
-- name: Splunk Enterprise
+- name: Splunk Enterprise (core.splunk.wiki)
   link: http://core.splunk.wiki
-- name: Universal Forwarder
+- name: Universal Forwarder (uf.splunk.wiki)
   link: http://uf.splunk.wiki
-- name: Cloud
+- name: Cloud (cloud.splunk.wiki)
   link: http://cloud.splunk.wiki
