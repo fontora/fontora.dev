@@ -1,4 +1,6 @@
-- name: Memes (silly.splunk.wiki)
+- name: Memes
   link: http://silly.splunk.wiki
-- name: Community Wiki (wiki.splunk.wiki)
+  info: silly.splunk.wiki
+- name: Community Wiki
   link: http://wiki.splunk.wiki
+  info: wiki.splunk.wiki
