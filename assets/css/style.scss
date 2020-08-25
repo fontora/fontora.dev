@@ -46,3 +46,9 @@ div#site_nav {
   margin: 0 !important;
   padding: 0.5em;
 }
+
+/* Remove excessive margin on ul's */
+
+ul {
+  margin: 0px;
+}

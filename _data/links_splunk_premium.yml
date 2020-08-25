@@ -1,21 +1,27 @@
 - name: Enterprise Security
   link: http://es.splunk.wiki
   info: es.splunk.wiki
+
 - name: IT Service Intelligence
   link: http://itsi.splunk.wiki
   info: itsi.splunk.wiki
+
 - name: User Behaviour Analytics
   link: http://uba.splunk.wiki
   info: uba.splunk.wiki
+
 - name: Phantom
   link: http://phantom.splunk.wiki
   info: phantom.splunk.wiki
+
 - name: Data Stream Processsor
   link: http://dsp.splunk.wiki
   info: dsp.splunk.wiki
+
 - name: VictorOps
   link: http://victorops.splunk.wiki
   info: victorops.splunk.wiki
+  
 - name: SignalFx
   link: http://signalfx.splunk.wiki
   info: signalfx.splunk.wiki
