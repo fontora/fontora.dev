@@ -3,6 +3,9 @@ permalink: /links/
 title: "List of useful links"
 ---
 
+* TOC
+{:toc}
+
 ## Splunk Docs
 ### Enterprise
 
