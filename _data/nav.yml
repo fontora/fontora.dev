@@ -8,5 +8,7 @@
   link: /categories/
 - name: Tags
   link: /tags/
-- name: Something else
-  link: /fake/ 
+- name: Links
+  link: /links/ 
+- name: Status
+  link: https://status.fontora.dev/ 
