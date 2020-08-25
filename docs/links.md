@@ -3,30 +3,30 @@ permalink: /links/
 title: "List of useful links"
 ---
 
-## Splunk: Enterprise
+## Splunk Docs
+### Enterprise
 
 {% for item in site.data.links_splunk_enterprise %}
 * [{{ item.name }}]({{ item.link }})
 {% endfor %}
 
-## Splunk: Premium
+### Premium
 
 {% for item in site.data.links_splunk_premium %}
 * [{{ item.name }}]({{ item.link }})
 {% endfor %}
 
-## Splunk: Apps
+### Apps
 
-sai.splunk.wiki
-cim.splunk.wiki
-mltk.splunk.wiki
-dbx.splunk.wiki
-stream.splunk.wiki
+{% for item in site.data.links_splunk_apps %}
+* [{{ item.name }}]({{ item.link }})
+{% endfor %}
 
-## Splunk: Unofficial
+### Unofficial
 
-wiki.splunk.wiki
-silly.splunk.wiki
+{% for item in site.data.links_splunk_unofficial %}
+* [{{ item.name }}]({{ item.link }})
+{% endfor %}
 
 ## Misc
 

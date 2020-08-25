@@ -1,0 +1,10 @@
+- name: Common Information Model (cim.splunk.wiki)
+  link: http://cim.splunk.wiki
+- name: Database Connect (dbx.splunk.wiki)
+  link: http://dbx.splunk.wiki
+- name: Machine Learning Toolkit (mltk.splunk.wiki)
+  link: http://mltk.splunk.wiki
+- name: Splunk App for Infrastructure (sai.splunk.wiki)
+  link: http://sai.splunk.wiki
+- name: Stream (stream.splunk.wiki)
+  link: http://stream.splunk.wiki
