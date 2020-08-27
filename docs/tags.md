@@ -1,5 +1,5 @@
 ---
-permalink: /posts/
+permalink: /tags/
 title: "Recent Posts"
 ---
 
