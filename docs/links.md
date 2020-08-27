@@ -6,6 +6,7 @@ title: "List of useful links"
 ## TOC
 * TOC
 {:toc}
+<br />
 
 ## Splunk Docs
 ### Enterprise
@@ -35,5 +36,5 @@ title: "List of useful links"
 ## Misc
 
 {% for item in site.data.links_misc %}
-* [{{ item.name }}]({{ item.link }}) ({{ item.info }})
+* [{{ item.name }}]({{ item.link }}) - {{ item.info }}
 {% endfor %}
