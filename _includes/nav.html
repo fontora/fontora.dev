@@ -1,3 +1,0 @@
-{% for item in site.data.nav %}
-<a href="{{ item.link }}" {% if page.url == item.link %}style="text-decoration: underline;"{% endif %}>{{ item.name }}</a> {% if forloop.last == false %}|{% endif %}
-{% endfor %}
