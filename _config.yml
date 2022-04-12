@@ -1,10 +1,25 @@
-theme: jekyll-theme-midnight
-title: "Fontora's Dev Area"
-description: "Fiddling with things I don't understand"
-google_analytics: UA-175213666-1
-show_downloads: false
-url: "https://fontora.dev"
+# Setup
+title: 'Splunk n Stuff'
+tagline: 'A Jekyll theme'
+description: 'Fiddling with data things!'
+#show_downloads: false
+baseurl: ''
+paginate: 5
+permalink: pretty
+
+# About
+author:
+  name: Fontora Vixol
+  url: https://fontora.dev
+  email: me@fontora.dev
+
+# Plugins
 plugins:
-  - jekyll-sitemap
+#  - jekyll-archives
   - jekyll-feed
-  - jekyll-archives
+  - jekyll-paginate  
+  - jekyll-sitemap  
+
+# Custom
+version: 0.0.1
+google_analytics_id: UA-175213666-1
