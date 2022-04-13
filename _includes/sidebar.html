@@ -36,7 +36,8 @@
            {% assign key = entry | first %}
            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me"><i class="fa {{ sm[key].fa-icon }} fa-2x"></i></a>
          {% endfor %}
+           <a href="https://github.com/fontora/fontora.dev/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" style="float:right;padding:5px"></a>
         </p>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} <a href="https://github.com/fontora/fontora.dev/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue"></a></p>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
        </div>
      </div>

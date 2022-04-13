@@ -16,7 +16,6 @@
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             {% assign random = site.time | date: "%s%N" | modulo: site.data.quotes_sunny.size %}
             &nbsp;&nbsp;&nbsp;<small>&ldquo;{{ site.data.quotes_sunny[random].quote }}&rdquo; &nbsp;&nbsp;- {{ site.data.quotes_sunny[random].character }}</small>           
-            <!-- <small>{{ site.tagline }}</small> -->
           </h3>
         </div>
       </div>
