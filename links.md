@@ -3,36 +3,33 @@ permalink: /links/
 title: "Links"
 ---
 
-## TOC
-
 * TOC
 {:toc}
-<br />
 
-## Splunk Docs
+# Splunk Docs
 
-### Enterprise
+## Enterprise
 
 {% for item in site.data.links_splunk_enterprise %}
 
 * [{{ item.name }}]({{ item.link }}) ({{ item.info }})
 {% endfor %}
 
-### Premium
+## Premium
 
 {% for item in site.data.links_splunk_premium %}
 
 * [{{ item.name }}]({{ item.link }}) ({{ item.info }})
 {% endfor %}
 
-### Apps
+## Apps
 
 {% for item in site.data.links_splunk_apps %}
 
 * [{{ item.name }}]({{ item.link }}) ({{ item.info }})
 {% endfor %}
 
-### Unofficial
+## Unofficial
 
 {% for item in site.data.links_splunk_unofficial %}
 

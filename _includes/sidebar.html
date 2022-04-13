@@ -30,18 +30,20 @@
        </nav>
      
        <div class="sidebar-item">
+        {% for item in site.data.social %}
+        <div id="social">
+          {% assign sm = site.data.social %}
+          {% for entry in site.data.social %}
+            {% assign key = entry | first %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me"><i class="fa {{ sm[key].fa-icon }} fa-2x"></i></a>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+
+       <div class="sidebar-item">
          <p>
            &copy; {{ site.time | date: '%Y' }}. All rights reserved.
          </p>
        </div>
      </div>
-
-     {% for item in site.data.social %}
-     <div id="social">
-       {% assign sm = site.data.social %}
-       {% for entry in site.data.social %}
-         {% assign key = entry | first %}
-         <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me"><i class="fa {{ sm[key].fa-icon }} fa-2x"></i></a>
-       {% endfor %}
-     </div>
-     {% endfor %}
