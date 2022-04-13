@@ -3,7 +3,7 @@ permalink: /posts/
 title: "Posts"
 ---
 
-## Index? ##
+# Index
 
 <ul>
   {% for post in site.posts %}

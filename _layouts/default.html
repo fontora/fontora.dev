@@ -14,7 +14,9 @@
         <div class="container">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            {% assign random = site.time | date: "%s" | modulo: site.data.quotes_sunny.size %}
+            <small>&ldquo;{{ site.data.quotes_sunny[random].quote }}&rdquo; - {{ site.data.inspirational-quotes[random].character }}</small>>           
+            <!-- <small>{{ site.tagline }}</small> -->
           </h3>
         </div>
       </div>

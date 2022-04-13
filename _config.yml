@@ -1,23 +1,22 @@
-# Setup
 title: 'Splunk n Stuff'
-tagline: 'Fontora\'
+#tagline: ''
 description: 'Fiddling with data!'
 #show_downloads: false
 baseurl: ''
 paginate: 5
 permalink: pretty
 
-# About
 author:
   name: Fontora Vixol
   url: https://fontora.dev
   email: me@fontora.dev
 
-# Plugins
 plugins:
 #  - jekyll-archives
   - jekyll-feed
-  - jekyll-paginate  
+  # https://github.com/jekyll/jekyll-paginate - Needed?
+  - jekyll-paginate 
+  # https://github.com/jekyll/jekyll-sitemap 
   - jekyll-sitemap  
 
 # Custom
