@@ -1,6 +1,6 @@
 ---
 permalink: /categories/
-title: "This page should be a list of categories"
+title: 'Categories'
 ---
 
 <div id="archives">

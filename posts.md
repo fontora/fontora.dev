@@ -1,6 +1,6 @@
 ---
 permalink: /posts/
-title: "Recent Posts"
+title: "Posts"
 ---
 
 ## Index? ##
