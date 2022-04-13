@@ -1,6 +1,6 @@
 ---
 permalink: /tags/
-title: "Recent Posts"
+title: "Tags"
 ---
 
 ## Index? ##
