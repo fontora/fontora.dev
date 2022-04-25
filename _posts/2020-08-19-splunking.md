@@ -10,11 +10,13 @@ somevar:
 ---
 
 # Welcome
+
 {{ page.date | date: '%B %d, %Y' }}: Matt
 
 ---
 
 Using **ini** code syntax:
+
 ```ini
 [tcp://10.1.1.10:9995]
 host = webhead-1
@@ -23,6 +25,7 @@ source = //10.1.1.10/var/log/apache/access.log
 ```
 
 Using **css** code syntax:
+
 ```css
 div#site_nav {
   padding-bottom: 10px;
@@ -31,6 +34,7 @@ div#site_nav {
 ```
 
 Using **json** code syntax:
+
 ```json
 {"menu": {
   "id": "file",
@@ -46,6 +50,7 @@ Using **json** code syntax:
 ```
 
 Using **plaintext** code syntax:
+
 ```plaintext
 This isn't very exciting.
 nothing is being highlited?
@@ -54,11 +59,13 @@ Boo!
 ```
 
 Using **powershell** code syntax:
+
 ```powershell
 Get-Service | WHERE {$_.status -eq "Running"} | SELECT displayname
 ```
 
 Using **python** code syntax:
+
 ```python
 friends = ['john', 'pat', 'gary', 'michael']
 for i, name in enumerate(friends):
@@ -66,11 +73,13 @@ for i, name in enumerate(friends):
 ```
 
 Using **shell** code syntax:
+
 ```shell
 for i in `seq 1 10; do echo "iteration: $i"; done
 ```
 
 Using **xml** code syntax:
+
 ```xml
 <breakfast_menu>
   <food>
@@ -89,6 +98,7 @@ Using **xml** code syntax:
 ```
 
 Using **ymal** code syntax:
+
 ```yaml
   vars:
     http_port: 80
