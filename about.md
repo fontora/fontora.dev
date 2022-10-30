@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-## Who
+# Who
 
 Matt, although I use the alias Fontora on the Internet.
 
@@ -21,8 +21,12 @@ Started around 2020.
 
 ## Why
 
-All the cool kids have websites. Probably more so that I don't reinvent the wheel.
+All the cool kids have websites.
 
 ## How
 
-[GitHub Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com/), [Lanyon](https://github.com/poole/lanyon), [VS Code](https://code.visualstudio.com/) and [Google](https://www.google.com/).
+- [GitHub Pages](https://pages.github.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Lanyon](https://github.com/poole/lanyon)
+- [VS Code](https://code.visualstudio.com/)
+- [Google](https://www.google.com/)
