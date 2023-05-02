@@ -5,6 +5,7 @@ description: 'Fiddling with data!'
 baseurl: ''
 paginate: 5
 permalink: pretty
+future: true
 
 author:
   name: Fontora Vixol
