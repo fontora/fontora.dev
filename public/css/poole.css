@@ -183,7 +183,10 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
+  /* Fontora 2023-05-03 */
+  background-color: #dfdfdf;
 }
+
 .highlight pre {
   margin-bottom: 0;
 }
