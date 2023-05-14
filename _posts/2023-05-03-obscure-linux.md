@@ -136,3 +136,5 @@ fontora@banshee:~$ vimdiff /etc/ca-certificates.conf /etc/ca-certificates.conf.d
 ```
 
 ![vimdiff](/public/images/2023-05-03-vimdiff.png)
+
+[video link](https://youtu.be/iWowJBRMtpc?t=90s)
