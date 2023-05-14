@@ -7,7 +7,7 @@ tags: sysadmin commands
 
 # {{ page.title }}
 
-<div style="text-align: right;">{{ page.date | date: '%B %d, %Y' }}</div><br />
+<div style="text-align: right;">{{ page.date | date: '%B %d, %Y' }}</div>
 
 ---
 
@@ -34,15 +34,15 @@ My Traceroute .. it's like traceroute but better.
 ```shell
 fontora@banshee:~$ mtr google.com
                                     My traceroute  [v0.95]
-banshee (129.24.56.77) -> google.com (172.217.24.46)                 2023-05-03T13:06:06+1000
+banshee (129.24.56.77) -> google.com (172.217.24.46)              2023-05-03T13:06:06+1000
 Keys:  Help   Display mode   Restart statistics   Order of fields   quit
                                                       Packets               Pings
- Host                                               Loss%   Snt   Last   Avg  Best  Wrst StDev
- 1. ns1rtr1-ten-lan.binarylane.cloud                 6.2%    16    0.3   0.3   0.2   0.4   0.0
- 2. 74.125.52.4                                      0.0%    16    0.6   1.2   0.4   7.0   1.8
- 3. 108.170.247.81                                   0.0%    16    1.0   1.0   0.8   2.1   0.3
- 4. 216.239.57.119                                   0.0%    15    1.3   1.2   1.1   1.3   0.1
- 5. syd15s20-in-f14.1e100.net                        0.0%    15    0.8   0.7   0.7   0.9   0.1
+ Host                                             Loss%   Snt   Last   Avg  Best  Wrst StDev
+ 1. ns1rtr1-ten-lan.binarylane.cloud              6.2%    16    0.3   0.3   0.2   0.4   0.0
+ 2. 74.125.52.4                                   0.0%    16    0.6   1.2   0.4   7.0   1.8
+ 3. 108.170.247.81                                0.0%    16    1.0   1.0   0.8   2.1   0.3
+ 4. 216.239.57.119                                0.0%    15    1.3   1.2   1.1   1.3   0.1
+ 5. syd15s20-in-f14.1e100.net                     0.0%    15    0.8   0.7   0.7   0.9   0.1
 ```
 
 ## namei
@@ -121,8 +121,8 @@ fontora@banshee:~$ vmstat 5 5
 procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
  0  0      0 113484  63620 588460    0    0     4     7   24   43  0  0 100  0  0
- 0  0      0 113484  63624 588460    0    0     0    33   36   56  0  0 99  0  0
- 1  0      0 113484  63624 588464    0    0     1     0   42   81  1  0 99  0  0
+ 0  0      0 113484  63624 588460    0    0     0    33   36   56  0  0 99   0  0
+ 1  0      0 113484  63624 588464    0    0     1     0   42   81  1  0 99   0  0
  0  0      0 113484  63632 588464    0    0     0     8   32   54  0  0 100  0  0
  0  0      0 113484  63632 588464    0    0     0     0   24   40  0  0 100  0  0
 ```
