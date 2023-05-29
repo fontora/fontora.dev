@@ -10,7 +10,7 @@ title: "Posts"
   <h2 id="y{{ year.name }}">{{ year.name }}</h2>
   <ul>
     {% for post in year.items %}
-      <li><a href="{{ post.url }}">{{ post.date | date: "%B" }}: {{ post.title }}</a></li>
+      <li>{{ post.date | date: "%B" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
