@@ -135,10 +135,6 @@ It's like diff... but better in every way.
 fontora@banshee:~$ vimdiff /etc/ca-certificates.conf /etc/ca-certificates.conf.dpkg-old
 ```
 
-![vimdiff](/public/images/2023-05-03-vimdiff.png)
-
-new
-
 [![vimdiff](/public/images/2023-05-03-vimdiff.png)](/public/images/2023-05-03-vimdiff.png)
 
 video
