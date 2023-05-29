@@ -6,12 +6,10 @@ baseurl: ''
 paginate: 5
 permalink: pretty
 future: true
-
 author:
   name: Fontora Vixol
   url: https://fontora.dev
   email: me@fontora.dev
-
 plugins:
 #  - jekyll-archives
   - jekyll-feed
@@ -19,7 +17,6 @@ plugins:
   - jekyll-paginate 
   # https://github.com/jekyll/jekyll-sitemap 
   - jekyll-sitemap  
-
 # Custom
 version: 0.0.1
-google_analytics_id: UA-175213666-1
+google_analytics: G-4E5ZN229LP
