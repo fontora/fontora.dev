@@ -1,5 +1,4 @@
 title: 'Splunk n Stuff'
-#tagline: ''
 description: 'Fiddling with data!'
 #show_downloads: false
 baseurl: ''
@@ -17,6 +16,7 @@ plugins:
   - jekyll-paginate 
   # https://github.com/jekyll/jekyll-sitemap 
   - jekyll-sitemap  
-# Custom
-version: 0.0.1
+
+## Custom ##
+version: 0.0.2
 google_analytics: G-4E5ZN229LP
