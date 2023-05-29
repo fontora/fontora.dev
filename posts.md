@@ -21,10 +21,21 @@ title: "Posts"
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
-  <h1>{{ year.name }}</h1>
-    <ul>
-      {% for post in year.items %}
-        <li><a href="{{ post.url }}">{{ post.title }}-{{ post.date }}</a></li>
-      {% endfor %}
-    </ul>
+  <h2>{{ year.name }}</h2>
+  <ul>
+    {% for post in year.items %}
+      <li><a href="{{ post.url }}">{{ post.date }} :: {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+# Archive 3
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
